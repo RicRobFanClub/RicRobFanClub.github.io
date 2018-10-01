@@ -94,7 +94,7 @@
 		//BASE MATERIALS
 			//Ventricles base material
 			var ventmat = new BABYLON.StandardMaterial("ventmat", scene);
-			ventmat.diffuseTexture = new BABYLON.Texture("scenes/test1.bmp", scene);
+			ventmat.diffuseTexture = new BABYLON.Texture("scenes/test11.bmp", scene);
 			ventmat.emissiveColor = new BABYLON.Color3(0.8,0.8,0.8);
 			ventmat.emissiveTexture = new BABYLON.Texture("scenes/blankglow.bmp", scene);
 
@@ -199,19 +199,19 @@
 			
 			//iv
 			var ivthmat= new BABYLON.StandardMaterial("ivthmat", scene);
-			ivthmat.diffuseTexture = new BABYLON.Texture("scenes/test1.bmp", scene);
+			ivthmat.diffuseTexture = new BABYLON.Texture("scenes/test11.bmp", scene);
 			ivthmat.emissiveTexture = new BABYLON.Texture("scenes/ivthglow.bmp", scene);
 			ivthmat.emissiveColor = new BABYLON.Color3(0.8,0.8,0.8); 			
 			
 			//iii
 			var iiirdmat= new BABYLON.StandardMaterial("iiirdmat", scene);
-			iiirdmat.diffuseTexture = new BABYLON.Texture("scenes/test1.bmp", scene);
+			iiirdmat.diffuseTexture = new BABYLON.Texture("scenes/test11.bmp", scene);
 			iiirdmat.emissiveTexture = new BABYLON.Texture("scenes/iiirdglow.bmp", scene);
 			iiirdmat.emissiveColor = new BABYLON.Color3(0.8,0.8,0.8); 			
 						
 			//lateral
 			var latermat= new BABYLON.StandardMaterial("latermat", scene);
-			latermat.diffuseTexture = new BABYLON.Texture("scenes/test1.bmp", scene);
+			latermat.diffuseTexture = new BABYLON.Texture("scenes/test11.bmp", scene);
 			latermat.emissiveTexture = new BABYLON.Texture("scenes/latglow.bmp", scene);
 			latermat.emissiveColor = new BABYLON.Color3(0.8,0.8,0.8); 			
 			
@@ -220,7 +220,7 @@
 		
 		//MESH LOADER
 			//Ventricles Mesh Loader
-			BABYLON.SceneLoader.ImportMesh("", "scenes/", "test1.obj", scene, function (newMeshes) {
+			BABYLON.SceneLoader.ImportMesh("", "scenes/", "test11.obj", scene, function (newMeshes) {
 			allventricles=newMeshes[0];
 			allventricles.material= ventmat;
 			});
