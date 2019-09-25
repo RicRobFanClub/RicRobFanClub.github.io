@@ -1,0 +1,100 @@
+Exporter version: 6.2.1, Blender version: 2.80 (sub 75)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		texture directory   :  C:\Users\User\Documents\GitHub\RicRobFanClub.github.io\
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of mesh:  Extrude.2
+		processing begun of material:  Mat
+		Custom split normals with tangents being used
+		num positions      :  471
+		num normals        :  471
+		num tangents       :  1884
+		num uvs            :  942
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  708
+	processing begun of mesh:  Extrude.1
+		processing begun of material:  Mat
+		registered as also a user of material:  Mat
+		Custom split normals with tangents being used
+		num positions      :  470
+		num normals        :  470
+		num tangents       :  1880
+		num uvs            :  940
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  708
+	processing begun of mesh:  Extrude
+		processing begun of material:  Mat
+		registered as also a user of material:  Mat
+		Custom split normals with tangents being used
+		num positions      :  2876
+		num normals        :  2876
+		num tangents       :  11504
+		num uvs            :  5752
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4272
+	processing begun of mesh:  Lower_Medulla
+		processing begun of material:  Mat
+		registered as also a user of material:  Mat
+		Custom split normals with tangents being used
+		num positions      :  1335
+		num normals        :  1335
+		num tangents       :  5340
+		num uvs            :  2670
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2016
+	processing begun of mesh:  Cervical
+		processing begun of material:  Mat
+		registered as also a user of material:  Mat
+		Custom split normals with tangents being used
+		num positions      :  1367
+		num normals        :  1367
+		num tangents       :  5468
+		num uvs            :  2734
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2040
+	processing begun of mesh:  Medulla
+		processing begun of material:  Mat
+		registered as also a user of material:  Mat
+		Custom split normals with tangents being used
+		num positions      :  1791
+		num normals        :  1791
+		num tangents       :  7164
+		num uvs            :  3582
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2676
+	processing begun of mesh:  Lumbar
+		processing begun of material:  Mat
+		registered as also a user of material:  Mat
+		Custom split normals with tangents being used
+		num positions      :  1471
+		num normals        :  1471
+		num tangents       :  5884
+		num uvs            :  2942
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2196
+========= Writing of JSON file started =========
+	writing mesh:  Extrude.2
+	writing mesh:  Extrude.1
+	writing mesh:  Extrude
+	writing mesh:  Lower_Medulla
+	writing mesh:  Cervical
+	writing mesh:  Medulla
+	writing mesh:  Lumbar
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 1.6194 secs
