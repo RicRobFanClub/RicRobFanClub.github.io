@@ -8,16 +8,22 @@ Exporter version: 6.2.1, Blender version: 2.80 (sub 75)
 		UVs Precision       :  3
 		Vert Color Precision:  3
 		Mat Weight Precision:  2
-		texture directory   :  C:\Users\User\Documents\
+		texture directory   :  C:\Users\User\Desktop\
 	Python World class constructor completed
 	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
-	processing begun of mesh:  LOWPOLYSTRIATUM
+	processing begun of mesh:  basalgangs
 		processing begun of material:  Default
 			processing texture LOWPOLYSTRIATUM_Default_nmap
+				WARNING: Exception during copy:
+					'C:\\Users\\User\\Desktop\\LOWPOLYSTRIATUM_Default_nmap.png' and 'C:\\Users\\User\\Desktop\\LOWPOLYSTRIATUM_Default_nmap.png' are the same file
 				texture type:  bumpTexture, mapped using: "UVMap"
 			processing texture LOWPOLYSTRIATUM_Default_color
+				WARNING: Exception during copy:
+					'C:\\Users\\User\\Desktop\\LOWPOLYSTRIATUM_Default_color.png' and 'C:\\Users\\User\\Desktop\\LOWPOLYSTRIATUM_Default_color.png' are the same file
 				texture type:  diffuseTexture, mapped using: "UVMap"
 			processing texture LOWPOLYSTRIATUM_Default_rough
+				WARNING: Exception during copy:
+					'C:\\Users\\User\\Desktop\\LOWPOLYSTRIATUM_Default_rough.png' and 'C:\\Users\\User\\Desktop\\LOWPOLYSTRIATUM_Default_rough.png' are the same file
 				texture type:  specularTexture, mapped using: "UVMap"
 		Custom split normals with tangents being used
 		num positions      :  6297
@@ -28,7 +34,7 @@ Exporter version: 6.2.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num indices        :  23916
 ========= Writing of JSON file started =========
-	writing mesh:  LOWPOLYSTRIATUM
+	writing mesh:  basalgangs
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 0.9618 secs
+elapsed time:  0 min, 2.132 secs
