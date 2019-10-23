@@ -8,22 +8,33 @@ Exporter version: 6.2.1, Blender version: 2.80 (sub 75)
 		UVs Precision       :  3
 		Vert Color Precision:  3
 		Mat Weight Precision:  2
-		texture directory   :  C:\Users\User\Documents\GitHub\RicRobFanClub.github.io\
+		texture directory   :  C:\Users\User\Desktop\
 	Python World class constructor completed
 	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
-	processing begun of mesh:  BASAL GANG
-		processing begun of material:  defaultMat.001
-			processing texture BASAL_GANG
+	processing begun of mesh:  LOWPOLYSTRIATUM
+		processing begun of material:  Default
+			processing texture LOWPOLYSTRIATUM_Default_nmap
+				WARNING: Exception during copy:
+					'C:\\Users\\User\\Desktop\\LOWPOLYSTRIATUM_Default_nmap.png' and 'C:\\Users\\User\\Desktop\\LOWPOLYSTRIATUM_Default_nmap.png' are the same file
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture LOWPOLYSTRIATUM_Default_color
+				WARNING: Exception during copy:
+					'C:\\Users\\User\\Desktop\\LOWPOLYSTRIATUM_Default_color.png' and 'C:\\Users\\User\\Desktop\\LOWPOLYSTRIATUM_Default_color.png' are the same file
 				texture type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  50616
-		num normals        :  50616
-		num tangents       :  0
-		num uvs            :  101232
+			processing texture LOWPOLYSTRIATUM_Default_rough
+				WARNING: Exception during copy:
+					'C:\\Users\\User\\Desktop\\LOWPOLYSTRIATUM_Default_rough.png' and 'C:\\Users\\User\\Desktop\\LOWPOLYSTRIATUM_Default_rough.png' are the same file
+				texture type:  specularTexture, mapped using: "UVMap"
+		Custom split normals with tangents being used
+		num positions      :  3149
+		num normals        :  3149
+		num tangents       :  12596
+		num uvs            :  6298
 		num uvs2           :  0
 		num colors         :  0
-		num indices        :  50646
+		num indices        :  11958
 ========= Writing of JSON file started =========
-	writing mesh:  BASAL GANG
+	writing mesh:  LOWPOLYSTRIATUM
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 4.2649 secs
+elapsed time:  0 min, 0.5038 secs
