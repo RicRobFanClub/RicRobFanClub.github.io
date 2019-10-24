@@ -28,15 +28,15 @@
         <style>
             html, body {
                 overflow: hidden;
-                width: 90%;
-                height: 90%;
+                width: 99%;
+                height: 99%;
                 margin: 0;
-                padding-left: 15%;
+                padding-left: 16%;
                 padding-top: 1%;
             }
 
             #renderCanvas {
-                width: 60%;
+                width: 40%;
                 height: 70%;
                 touch-action: none;
             }
@@ -50,13 +50,13 @@
         //CREATE THE SCENE
                 var createScene = function () {
                 	var scene = new BABYLON.Scene(engine);
-                    scene.clearColor= new BABYLON.Color3(1,1,1)
+                    scene.clearColor= new BABYLON.Color3(.1,.15,.2)
         ///END SCENE CREATION
                 
                 
                 ///LIGHTS AND CAMERA
                     //Main Camera
-                	var camera = new BABYLON.ArcRotateCamera("Camera", -Math.PI , 5, 15, BABYLON.Vector3.Zero(),scene);
+                	var camera = new BABYLON.ArcRotateCamera("Camera", -Math.PI , 5, 16, BABYLON.Vector3.Zero(),scene);
                     //Reposition to center of mesh
                     camera.target = new BABYLON.Vector3(2.7,0,0)
                     //Enable user control
@@ -173,7 +173,7 @@
                         label.material.emissiveColor = new BABYLON.Color3(1, 1, 1);
                         label.material.backFaceCulling = false;
                                 labelTexture.drawText(objectname.labeltext, null, 214, "bold 110px verdana", "black");
-                        labelTexture.drawText(objectname.labeltext, null, 200, "bold 109px verdana", "red");
+                        labelTexture.drawText(objectname.labeltext, null, 200, "bold 109px verdana", "white");
                         labelTexture.hasAlpha = true;
                         scene.registerAfterRender(() => {
                             label.position = objectname.labelpos;
