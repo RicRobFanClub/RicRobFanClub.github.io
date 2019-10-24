@@ -28,16 +28,16 @@
         <style>
             html, body {
                 overflow: hidden;
-                width: 90%;
-                height: 90%;
+                width: 99%;
+                height: 99%;
                 margin: 0;
-                padding-left: 15%;
+                padding-left: 16%;
                 padding-top: 1%;
             }
 
             #renderCanvas {
-                width: 60%;
-                height: 100%;
+                width: 40%;
+                height: 70%;
                 touch-action: none;
             }
         </style>
@@ -56,7 +56,7 @@
                 
                 ///LIGHTS AND CAMERA
                     //Main Camera
-                	var camera = new BABYLON.ArcRotateCamera("Camera", -Math.PI , 5, 18, BABYLON.Vector3.Zero(),scene);
+                	var camera = new BABYLON.ArcRotateCamera("Camera", -Math.PI , 5, 16, BABYLON.Vector3.Zero(),scene);
                     //Reposition to center of mesh
                     camera.target = new BABYLON.Vector3(2.7,0,0)
                     //Enable user control
